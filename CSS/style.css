@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8ee;
+    color: #382319;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #492719;
+}
+
+.navbar-brand {
+    color: #ffcf87 !important;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 12px;
+}
+
+.nav-link:hover {
+    color: #ffcf87 !important;
+}
+
+.hero {
+    padding: 60px 20px;
+    background-color: #f3d2a5;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #492719;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 15px auto;
+}
+
+.section-title {
+    text-align: center;
+    margin: 35px 0 25px;
+    color: #492719;
+    font-weight: bold;
+}
+
+.carousel {
+    width: 75%;
+    margin: 30px auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #492719;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.product-grid {
+    width: 75%;
+    margin: 0 auto 50px;
+}
+
+.card {
+    height: 100%;
+    border: 1px solid #ead5bd;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 18px;
+}
+
+.card-title {
+    color: #492719;
+    font-weight: bold;
+}
+
+.price {
+    color: #a44b19;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-food {
+    background-color: #a44b19;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    margin-top: auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-food:hover {
+    background-color: #492719;
+    color: white;
+}
+
+.content-section {
+    width: 85%;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.content-section h2 {
+    color: #492719;
+    margin-bottom: 15px;
+}
+
+.info-box {
+    background-color: #f3d2a5;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbb7a4;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #492719;
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #ffcf87;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+@media (max-width: 768px) {
+    .carousel,
+    .product-grid {
+        width: 95%;
+    }
+
+    .carousel img {
+        height: 250px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .content-section {
+        width: 95%;
+    }
+}
